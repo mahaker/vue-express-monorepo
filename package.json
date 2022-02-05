@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "lerna run build",
+    "build:core": "lerna run --scope=core build",
     "dev:frontend": "lerna run --scope=frontend-app --stream dev",
     "build:frontend": "lerna run --scope=frontend-app build",
     "dev:server": "lerna run --scope=server-app --stream dev",

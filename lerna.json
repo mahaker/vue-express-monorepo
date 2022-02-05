@@ -1,7 +1,6 @@
 {
   "packages": [
-    "packages/frontend-app",
-    "packages/server-app"
+    "packages/*"
   ],
   "version": "0.0.0"
 }

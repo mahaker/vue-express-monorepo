@@ -13,8 +13,8 @@ This is a sample project that build by lerna(monorepo).
 
 ```shell
 # Clone repository
-npm install
 git clone https://github.com/mahaker/esbuild-gas-plugin.git
+npm install
 
 # Bootstrap
 npm run bootstrap
